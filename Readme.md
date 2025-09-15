@@ -1,22 +1,22 @@
 # My Logic & Testing Playground
 
-![GitHub repo size](https://img-shields.io/github/repo-size/Setpmus/Logic-Testing-Studies?style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/Setpmus/Logic-Testing-Studies?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Setpmus/Logic-Testing-Studies?style=for-the-badge)
+![GitHub repo size](https://img-shields.io/github/repo-size/Setpmus/Web-Interfaces-Study?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/Setpmus/Web-Interfaces-Study?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Setpmus/Web-Interfaces-Study?style=for-the-badge)
 
-> A place to keep and test everything I'm learning about code.
+> A place to keep and test everything I'm learning about UI & UX.
 
-What's up! I made this repo to be my public "notebook". Basically, everything I study about logic, algorithms, and testing in Python ends up here.
+What's up! I made this repo to be my public "notebook". Basically, everything I study about Fullstack: ends up here.
 
-## 🎯 What's the Deal?
+## What's the Deal?
 
-The idea is simple: have a spot to organize the code I write for college and other courses. It's a way to track my progress and not lose what I've learned.
+
 
 **What you'll find inside:**
-* Some algorithms to mess with.
-* Tests for different concepts and data structures.
-* My first adventures in software testing.
-* Random scripts just for practice.
+* 
+* 
+* 
+* 
 
 ## My Toolkit
 

@@ -230,8 +230,11 @@ h2 {
 
 .about-text p {
     font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 2rem;
+    line-height: 1.7;
+    margin-bottom: 1.7rem;
+    text-align: justify;
+    width: 107%; 
+
 }
 
 .skills {

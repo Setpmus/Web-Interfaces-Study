@@ -1,6 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-
-    // --- MENU HAMBÚRGUER  ---
     const hamburger = document.querySelector('.hamburger-menu');
     const navbar = document.querySelector('.navbar');
 
@@ -36,8 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    // ---  MODO ESCURO  ---
     const darkModeToggle = document.getElementById('darkModeToggle');
     const body = document.body;
 
