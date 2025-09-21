@@ -11,7 +11,7 @@
     --transition: all 0.3s ease;
     /* Novas variáveis para o modo escuro */
     --dark-primary-color: #8ab4f8;
-    --dark-secondary-color: #e2e2e2; 
+    --dark-secondary-color: #e2e2e2;
     --dark-background-color: #121212;
     --dark-text-color: #e0e0e0;
     --dark-card-bg-color: #1e1e1e;
@@ -63,7 +63,8 @@ body {
     transition: var(--transition);
 }
 
-.navbar a:hover, .navbar a.active {
+.navbar a:hover,
+.navbar a.active {
     color: var(--primary-color);
 }
 
@@ -72,13 +73,14 @@ body {
     font-size: 1.8rem;
     cursor: pointer;
 }
+
 /* Botão de Modo Escuro (Dark Mode Toggle) */
 .theme-switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
-    margin-right: 1.5rem; 
+    margin-right: 1.5rem;
 }
 
 .theme-switch input {
@@ -102,34 +104,48 @@ body {
 
 .slider:before {
     position: absolute;
-    content: "";
+    content: "\f185";
+    /* Ícone de sol do Font Awesome */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
     height: 26px;
     width: 26px;
     left: 4px;
     bottom: 4px;
     background-color: white;
+    color: #f39c12;
+    /* Cor amarela para o sol */
     -webkit-transition: var(--transition);
     transition: var(--transition);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
 }
 
-input:checked + .slider {
+input:checked+.slider {
     background-color: var(--primary-color);
 }
 
-input:focus + .slider {
+input:focus+.slider {
     box-shadow: 0 0 1px var(--primary-color);
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
+    content: "\f186";
+    /* Ícone de lua do Font Awesome */
+    color: var(--dark-primary-color);
+    /* Cor azulada para a lua */
 }
 
 /* Seções */
 main {
-    padding-top: 80px; /* Altura do header */
+    padding-top: 80px;
+    /* Altura do header */
 }
 
 section {
@@ -212,9 +228,17 @@ h2 {
 }
 
 @keyframes floatImage {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
 
 /* Sobre */
@@ -233,7 +257,7 @@ h2 {
     line-height: 1.7;
     margin-bottom: 1.7rem;
     text-align: justify;
-    width: 107%; 
+    width: 107%;
 
 }
 
@@ -407,7 +431,7 @@ body.dark-mode .about {
 
 body.dark-mode .skills span {
     background-color: var(--dark-primary-color);
-    color: var(--dark-background-color); 
+    color: var(--dark-background-color);
 }
 
 body.dark-mode .project-card {
@@ -432,7 +456,7 @@ body.dark-mode .btn-contact:hover {
 }
 
 body.dark-mode .footer {
-    background-color: #000; 
+    background-color: #000;
     color: var(--dark-text-color);
 }
 
@@ -448,9 +472,11 @@ body.dark-mode .navbar {
         flex-direction: column-reverse;
         text-align: center;
     }
+
     .home-content {
         max-width: 100%;
     }
+
     .social-links {
         justify-content: center;
     }
@@ -472,7 +498,7 @@ body.dark-mode .navbar {
         flex-direction: column;
         box-shadow: var(--shadow);
     }
-    
+
     .navbar.active {
         display: flex;
     }
