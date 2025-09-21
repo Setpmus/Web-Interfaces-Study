@@ -9,7 +9,6 @@
     --card-bg-color: #FFFFFF;
     --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
-    /* Novas variáveis para o modo escuro */
     --dark-primary-color: #8ab4f8;
     --dark-secondary-color: #e2e2e2;
     --dark-background-color: #121212;
@@ -104,8 +103,7 @@ body {
 
 .slider:before {
     position: absolute;
-    content: "\f185";
-    /* Ícone de sol do Font Awesome */
+    content: "\f185";/* Ícone de sol */
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     height: 26px;
@@ -114,7 +112,6 @@ body {
     bottom: 4px;
     background-color: white;
     color: #f39c12;
-    /* Cor amarela para o sol */
     -webkit-transition: var(--transition);
     transition: var(--transition);
     border-radius: 50%;
@@ -136,10 +133,8 @@ input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-    content: "\f186";
-    /* Ícone de lua do Font Awesome */
+    content: "\f186"; /* Ícone de lua */
     color: var(--dark-primary-color);
-    /* Cor azulada para a lua */
 }
 
 /* Seções */
